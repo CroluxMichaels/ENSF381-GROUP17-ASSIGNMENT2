@@ -10,27 +10,31 @@
         <header>
             <img src="logo.jpg" width="100px" height="100px"></img>
             <h1>LMS - Learning Management System</h1>
-            <h2>LMS Login</h2>
+            
         </header>
         <div>
             <a href="index.html">Homepage</a>
         </div>
-        <main>
+        
+        <main id="login-main">
             <br>
             <br>
+            <h2>LMS Login</h2>
+            
             <form action="course_view.html">
-                <label for="username">Username:</label> 
-                <input type="text" id="username"> 
-                <br> <br>
-                <label for="password">Password:</label>
-                <input type="password" id="password">
-                <br> <br>
+                <div id="login-form">
+                    <label for="username">Username:</label> 
+                    <input type="text" id="username" class="inputfield"> 
+                    <br> <br>
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" class="inputfield">
+                    <br> <br>
+                </div>
                 <button type="submit">Login</button>
-                <!-- Note: The Output pdf file shows the button with no hyperlink underline. I don't know how to get rid if it while still
-                 retaining the functionality to redirect to course_view.html. I will have to ask Dr. Abdellatif next class -->
                 <br><br>
-                <a href="login.html">Forgot Password?</a>
+                
             </form>
+            <a href="login.html" id="forgot-password">Forgot Password?</a>
             <br>
         </main>
         
