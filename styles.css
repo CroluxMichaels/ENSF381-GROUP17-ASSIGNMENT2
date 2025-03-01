@@ -1,0 +1,51 @@
+
+header 
+{
+    background-color: #004080;
+    padding: 20px;
+    margin: 0;
+    display: flex;
+    justify-content:space-between;
+    color: white;
+    font-family: Arial;
+}
+
+div
+{
+    display: flex;
+    justify-content: space-around;
+    background-color: #003366;
+    padding: 10px;
+    font-family: Arial;
+}
+a
+{
+    text-decoration: none;
+    color: white;
+}
+a:hover
+{
+    text-decoration: underline;
+}
+
+#index-main
+{
+    background-color: #d4d4d4;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    font-family: Arial;
+}
+h2
+{
+    color: #004080;
+}
+
+footer
+{
+    color: white;
+    background-color: #004080;
+    padding: 10px;
+    text-align: center;
+    font-family: Arial;
+}
