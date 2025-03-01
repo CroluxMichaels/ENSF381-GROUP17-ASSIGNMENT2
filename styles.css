@@ -68,7 +68,7 @@ footer
     margin-left: 150px;
     margin-right: 150px;
     border-radius: 30px;
-    box-shadow: 2px 2px 3px #bab8b8;
+    box-shadow: 15px 15px 40px 3px rgba(0,0,0, 0.16);
 }
 
 #forgot-password
@@ -83,11 +83,29 @@ footer
 
 .inputfield
 {
-    text-align: center;
     background-color: lightyellow;
     padding: 10px;
     border-radius: 5px;
     border-color: darkgrey;
     border-width: 3px;
     width: 20%;
+    margin-left: 39%;
+}
+
+#login-button
+{
+    background-color: #008000;
+    color: white;
+    height: 35px;
+    width: 60px;
+    border-radius: 5px;
+    border-width: 3px;
+    border-color: #008000;
+    border-style: solid;
+}
+
+#login-button:hover
+{
+    background-color: #006600;
+    border-color: #006600;
 }
