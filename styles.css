@@ -18,12 +18,12 @@ header
     padding: 10px;
     font-family: Arial;
 }
-a
+.menu-link
 {
     text-decoration: none;
     color: white;
 }
-a:hover
+.menu-link:hover
 {
     text-decoration: underline;
 }
@@ -68,7 +68,7 @@ footer
     margin-left: 150px;
     margin-right: 150px;
     border-radius: 30px;
-    box-shadow: 15px 15px 40px 3px rgba(0,0,0, 0.16);
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.1), 1px 1px 3px rgba(0, 0, 0, 0.06);
 }
 
 #forgot-password
@@ -120,4 +120,74 @@ footer
 .dropdown-container
 {
     margin-left: 43.5%;
+}
+
+.course-container
+{
+    display: flex;
+}
+
+.course
+{
+    display: inline-block;
+    background-color: #e6f2ff;
+    padding: 20px;
+    margin: 1px 1px 0px 0px;
+    border-radius: 10px;
+    text-align: center;
+    font-family: Arial;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.1), 1px 1px 3px rgba(0, 0, 0, 0.06);
+    width: 30%;
+}
+
+.course2
+{
+    display: inline-block;
+    background-color: #e6f2ff;
+    padding: 20px;
+    margin: 15px 1px 15px 0px;
+    border-radius: 10px;
+    text-align: center;
+    font-family: Arial;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.1), 1px 1px 3px rgba(0, 0, 0, 0.06);
+    width: 45%;
+}
+.course2-img
+{
+    width: 100%;
+}
+
+.accept-button
+{
+    background-color: #4CAF50;
+    font-family: Arial;
+    color: white;
+    height: 35px;
+    width: 60px;
+    border-radius: 5px;
+    border-width: 3px;
+    border-color: #4CAF50;
+    border-style: solid;
+}
+.accept-button:hover
+{
+    background-color: #265e28;
+    border-color: #265e28;
+}
+.decline-button
+{
+    background-color: #D32F2F;
+    font-family: Arial;
+    color: white;
+    height: 35px;
+    width: 60px;
+    border-radius: 5px;
+    border-width: 3px;
+    border-color: #D32F2F;
+    border-style: solid;
+}
+.decline-button:hover
+{
+    background-color: #821b1b;
+    border-color: #821b1b;
 }
