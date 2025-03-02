@@ -5,6 +5,7 @@ header
     padding: 20px;
     margin: 0;
     display: flex;
+    align-items: center;
     justify-content:space-between;
     color: white;
     font-family: Arial;
@@ -190,4 +191,68 @@ footer
 {
     background-color: #821b1b;
     border-color: #821b1b;
+}
+
+/*
+styling for attempt quiz page starts here
+*/
+.center-align
+{
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+.quiz-banner
+{
+    border-radius: 5px;
+}
+.quiz-container
+{
+    text-align: center;
+    background-color: lightblue;
+    padding: 20px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+.quiz-questions
+{
+    font-family: Arial, sans-serif; 
+    font-size: 18px; 
+    font-weight: bold; 
+    text-align: center; 
+    margin-bottom: 10 px; 
+    margin-top: 10px; 
+}
+.quiz-choices
+{
+    background-color: #cacaca; 
+    padding: 15px; 
+    width: 300px; 
+    text-align: left; 
+    margin: 0 auto; 
+    font-family: Arial, sans-serif; 
+}
+.quiz-submit
+{
+    background-color: lightblue;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+.quiz-submit:hover
+{
+    background-color: darkblue;
+    color: white;
+}
+.quiz-finish
+{
+    background-color: #D32F2F;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+.quiz-finish:hover
+{
+    background-color: #821b1b;
 }
