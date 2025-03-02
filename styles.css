@@ -1,4 +1,6 @@
-
+body{
+    font-family: Arial, sans-serif;
+}
 header 
 {
     background-color: #004080;
@@ -255,4 +257,52 @@ styling for attempt quiz page starts here
 .quiz-finish:hover
 {
     background-color: #821b1b;
+}
+/*
+styling for leaderboard page starts here
+*/
+table, th, td 
+{
+    border: 2px solid white;
+    border-collapse: collapse;
+}
+.leaderboard-table
+{
+    width: 100%;
+    background-color: gray; 
+    text-align: center; 
+    font-size: larger;
+}
+.leaderboard-header
+{
+    background-color: #4CAF50; 
+    color: white; 
+    font-size: 32px;
+}
+.leaderboard-tr
+{
+    background-color: white;
+}
+.leaderboard-first
+{
+    background-color: #FFD700;
+}
+.leaderboard-second
+{
+    background-color: #c0c0c0;
+}
+.leaderboard-third
+{
+    background-color: #CD7F32;
+}
+.leaderboard-tr-gray
+{
+    background-color: #e4e2e2;
+}
+.leaderboard-img
+{
+    border-radius: 50%;
+    border: 1px black solid;
+    width: 50px;
+    height: 50px;
 }
