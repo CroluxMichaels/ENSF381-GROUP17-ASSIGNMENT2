@@ -10,7 +10,7 @@ header
     font-family: Arial;
 }
 
-div
+.menu
 {
     display: flex;
     justify-content: space-around;
@@ -33,7 +33,7 @@ a:hover
     background-color: #d4d4d4;
     text-align: center;
     padding: 20px;
-    margin: 20px;
+    margin: 20px, 20px, 0px, 0px;
     font-family: Arial;
 }
 h2
@@ -108,4 +108,16 @@ footer
 {
     background-color: #006600;
     border-color: #006600;
+}
+
+.dropdown-item
+{
+    background-color: lightyellow;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.dropdown-container
+{
+    margin-left: 43.5%;
 }
